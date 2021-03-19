@@ -62,7 +62,7 @@ function draw() {
  
 }
 function keyPr(){
-	if (keyDown("up")){
+	if (keyDown("left")){
 		Matter.Body.applyForce(bob1.body,bob1.body.position,{x:-130,y:-130})
 	}
 }
